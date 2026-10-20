@@ -1,0 +1,17 @@
+BOYS FUME — REPOSITORY STRUCTURE
+
+boys-fume/
+├── index.html
+├── styles.css
+├── app.js
+├── README.md
+└── assets/
+    ├── favicon.svg
+    ├── hero-bottle.svg
+    ├── product-still.svg
+    ├── product-after.svg
+    ├── product-almost.svg
+    ├── stone-water.svg
+    └── campaign.svg
+
+All product/editorial illustrations are local SVG files. The site runs without a build step.
