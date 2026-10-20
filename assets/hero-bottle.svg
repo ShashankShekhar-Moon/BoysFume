@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e7e4db"/><stop offset="1" stop-color="#c8c9bd"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2=".1"><stop stop-color="#fdfdf8" stop-opacity=".9"/><stop offset=".24" stop-color="#fff" stop-opacity=".48"/><stop offset=".58" stop-color="#aab3a8" stop-opacity=".25"/><stop offset=".82" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#7c857b" stop-opacity=".48"/></linearGradient>
+ <linearGradient id="stone" x2="0" y2="1"><stop stop-color="#d4d1c7"/><stop offset="1" stop-color="#aaa99e"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="24"/></filter>
+</defs>
+<rect width="900" height="1100" fill="url(#bg)"/>
+<circle cx="680" cy="210" r="170" fill="#f4f2e9" opacity=".45"/>
+<path d="M0 740 Q210 700 400 745 T900 725 V1100 H0Z" fill="#b8b9ad" opacity=".42"/>
+<ellipse cx="455" cy="889" rx="210" ry="48" fill="#55584e" opacity=".25" filter="url(#shadow)"/>
+<path d="M115 840 L790 840 L735 970 L175 970Z" fill="url(#stone)"/>
+<path d="M115 840 L790 840 L760 858 L145 858Z" fill="#eeece4" opacity=".8"/>
+<g transform="translate(280 250)">
+ <rect x="110" y="0" width="120" height="90" rx="5" fill="#33362f"/>
+ <rect x="125" y="8" width="12" height="72" fill="#65685e" opacity=".5"/>
+ <rect x="101" y="82" width="138" height="33" rx="4" fill="#d2d1c7"/>
+ <path d="M65 114 Q65 96 84 96 H256 Q275 96 275 114 L300 520 Q302 560 262 570 H78 Q38 560 40 520Z" fill="url(#glass)" stroke="#f9f8f0" stroke-width="4"/>
+ <path d="M55 145 L74 505 Q76 534 97 539" fill="none" stroke="#fff" stroke-width="7" opacity=".55"/>
+ <path d="M267 142 L284 492" fill="none" stroke="#fff" stroke-width="3" opacity=".55"/>
+ <rect x="76" y="265" width="190" height="170" fill="#eeece4" opacity=".78"/>
+ <text x="171" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" letter-spacing="5" fill="#55584e">BOYS FUME</text>
+ <path d="M110 336 H232" stroke="#9a9d91" stroke-width="1"/>
+ <text x="171" y="365" text-anchor="middle" font-family="Georgia,serif" font-size="23" fill="#34372f">STILL</text>
+ <text x="171" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" letter-spacing="3" fill="#66695f">EAU DE NOTHING</text>
+ <text x="171" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" letter-spacing="2" fill="#66695f">100 ML</text>
+</g>
+<text x="56" y="70" font-family="monospace" font-size="12" letter-spacing="3" fill="#65685e">OBJECT STUDY / 001</text>
+<text x="844" y="1020" text-anchor="end" font-family="monospace" font-size="10" letter-spacing="2" fill="#55584e">A STUDY IN PRESENCE</text>
+</svg>
